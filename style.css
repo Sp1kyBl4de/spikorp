@@ -1,0 +1,71 @@
+body
+{
+    background-color: black;
+
+    color: aliceblue;
+}
+
+    .projects
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color:rgb(13, 14, 16);
+    }
+
+        .section
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            width: 80%;
+            height: 400px;
+            border-radius: 14px;
+            margin: 14px;
+            padding: 14px;
+
+            background-color: rgb(22, 23, 26);
+            transition: background-color 1s ease; /* Smooth transition over 1 second */
+
+            cursor: pointer; /* Changes cursor to a pointer on hover */
+        }
+
+        .section:hover 
+        {
+            background-color: rgb(17, 18, 20); /* Darker background color on hover */
+        }
+
+        .section img
+        {
+            border-radius: 14px;
+            margin: 14px;
+        }
+
+        .section img {
+            transition: transform 0.5s ease; /* Smooth transition over 1 second */
+          }
+          
+        .section img:hover {
+            transform: scale(1.2); /* Increases the image size by 20% */
+          }
+
+    /*
+
+        #games
+        {
+            background-color: blue;
+        }
+
+        #music
+        {
+            background-color: yellow;
+        }
+
+        #pixel_art
+        {
+            background-color: blueviolet;
+        }
+
+    */
