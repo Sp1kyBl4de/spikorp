@@ -1,2 +1,2 @@
 # spikorp.github.io
- The official for Spikorp
+ The official website for Spikorp
